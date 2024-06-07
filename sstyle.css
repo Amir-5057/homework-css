@@ -1,0 +1,108 @@
+.h1{
+    color: rgb(248, 190, 0);
+    display: inline;
+}
+
+#photo{
+    width: 21%;
+    height: 20%;
+    display: block;
+}
+
+.py {
+    color: #FF5733; 
+}
+
+.dj {
+    color: #4CAF50; 
+}
+
+.ht {
+    color: #E34C26; 
+}
+
+.cs {
+    color: #264de4; 
+}
+
+.js {
+    color: #F0DB4F; 
+}
+
+.git {
+    color: #F1502F; 
+}
+
+.sql {
+    color: #336791;
+}
+
+.mysql {
+    color: #00758F; 
+}
+.ru{
+    color:#264de4;
+
+}
+.en{
+    color:#FF5733;
+}
+.uz{
+    color:#4CAF50;
+}
+.kr{
+    color:#F0DB4F;
+}
+
+
+
+
+
+@media (max-width: 480px) {
+    body{
+        background-color: darkgray;
+    }
+    
+    
+    .hi{
+        display: block;
+        margin: 0;
+        text-align: center;
+        
+    }
+
+    #photo{
+        
+        margin: 0 auto;  
+     }
+
+
+     #Link{
+        display: none;
+     }
+     #photo{
+        width: 200px; 
+        height: 200px; 
+        border-radius: 50%;
+        object-fit: cover; 
+}
+}
+
+
+@media ((min-width: 1400px ) and (max-width: 1800px)){
+    body{
+        background-color: black;
+
+    }
+    .h1{
+        font-size: 50px;
+        text-align: left;
+    }
+
+    #photo{
+        width: 300px; 
+        height: 200px; 
+        border-radius: 50%; 
+        object-fit: cover; 
+    }
+}
